@@ -57,3 +57,58 @@ body, html {
     margin-top: 50px;
     width: 220px !important;
 }
+@media (min-width:1280px) and (max-width:1365px)
+{
+    .robot
+    {
+        left: -25%;
+    }
+    .robot-width
+    {
+        width: 1500px !important;
+    }
+}
+@media (min-width:1366px) and (max-width:1439px)
+{
+    .robot
+    {
+        left: -20%;
+    }
+    .robot-width
+    {
+        width: 1500px !important;
+    }
+}
+@media (min-width:1440px) and (max-width:1679px)
+{
+    .robot
+    {
+        left: -13%;
+    }
+    .robot-width
+    {
+        width: 1500px !important;
+    }
+}
+@media (min-width:1680px) and (max-width:1777px)
+{
+    .robot
+    {
+        left: -13%;
+    }
+    .robot-width
+    {
+        width: 1800px !important;
+    }
+}
+@media (min-width:1921px) and (max-width:2560px)
+{
+    .robot
+    {
+        left: -5%;
+    }
+    .robot-width
+    {
+        width: 1900px !important;
+    }
+}
