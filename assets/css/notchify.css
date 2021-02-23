@@ -14,6 +14,14 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  #myVideo 
+{
+position: fixed;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+}
 .inner_notchify
 {
     position: absolute;
@@ -32,17 +40,19 @@ body, html {
     position: absolute;
     top: 21px;
     right: 0;
+    z-index: 99999;
 }
 .robot
 {
     position: absolute;
     bottom:0;
     left: -1%;
+    width: 50%;
 }
-.robot-width
+/* .robot-width
 {
     width: 1600px !important;
-}
+} */
 .notch-width
 {
     width: 305px !important;
@@ -70,13 +80,14 @@ body, html {
     } 
     .messenger-width
     {
-        width: 70px !important;
+        width: 52px !important;
+        margin-bottom: -35px;
+        margin-right: -2px;
     }
     .whatsapp-width
     {
         margin-right: 5px !important;
-        margin-top: 50px;
-        width: 84px !important;
+        width: 60px !important;
     }
     .inner_notchify2
     {
@@ -88,11 +99,23 @@ body, html {
     {
         position: absolute;
         bottom:0;
-        left: -45%;
     }
     .robot-width
     {
         width: 687px !important;
+    }
+    #myVideo 
+    {
+    position: fixed;
+    right: -50%;
+    bottom: -25%;
+    min-width: 100%;
+    width: 200% !important;
+    min-height: 100%;
+    }
+    .loader_width
+    {
+        width: 25% !important;
     }
 }
 @media (min-width:1280px) and (max-width:1365px)
