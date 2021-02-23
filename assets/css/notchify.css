@@ -107,8 +107,10 @@ min-height: 100%;
     #myVideo 
     {
     position: fixed;
-    right: -66%;
-    width: 855px;
+    right: -67%;
+    width: 220%;
+    margin-bottom: -25% !important;
+    height: 150% !important;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
